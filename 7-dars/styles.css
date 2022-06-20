@@ -7,6 +7,7 @@
     border-style: solid;
     border-color: #E5E5E5;
     border-radius: 5px;
+    position: relative;
 }
 .logo{
     background-color: white;
@@ -14,14 +15,10 @@
     width: 382px;
 }
 .telefon{
-    /* margin-right: 210px; */
-    /* line-height: 5px; */
     margin: 0 auto;
 }
 .r3{
     color: #FF9846;
-    /* margin-right: 200px; */
-    /* line-height: 5px; */
     margin: 0 auto;
 }
 .sad{
@@ -73,7 +70,12 @@ margin-bottom: 10px;
        width: 382px ;
    }
    .ozi{
-       margin-left: 50px;
+       left: 10px;
+       position: absolute;
+   }
+   .ozzi{
+    position: absolute;
+    margin-left: 30px;
    }
    .h{
     color: #b4b2b2;
